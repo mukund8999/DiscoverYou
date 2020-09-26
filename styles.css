@@ -1,0 +1,93 @@
+
+
+body {
+  background-image: url("Discov.jpg");
+  background-size:cover;
+
+}
+
+#title{
+  background-image: url("hand.jpg");
+   background-size:cover;
+   background-repeat: no-repeat;
+   height:600px;
+   
+
+}
+
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size:3rem;
+  line-height: 2.5;
+
+}
+h3 {
+  font-family: serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2%;
+  letter-spacing: normal;
+  font-size: 3rem;
+  color: #f5f1da;
+}
+
+h4{
+  font-family: serif;
+  font-weight: bold;
+}
+.col-lg-4 {
+
+  padding-top:6%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+
+}
+
+.col-position {
+
+  right:200px;
+}
+.col-position1{
+  left: 200px;
+}
+.container-fluid{
+  padding: 2% 7%;
+}
+
+.navbar-brand {
+  padding:1% 8%;
+  font-size: 2rem;
+  /* font-family:  serif; */
+  color: black;
+  font-weight: bold;
+  font-family:cursive;
+
+}
+
+.nav-item {
+  padding:4%;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.nav-link {
+color: black;
+}
+.navbar-nav {
+  padding-right: 8%;
+
+}
+.navbar-toggler-icon {
+  color: black;
+
+p {
+  font-family: 'PT Serif', serif;
+}
+
+.download-button{
+  font-family:  serif;
+  margin: 5% 0 3%;
+}

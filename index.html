@@ -31,14 +31,14 @@
   </div>
   </nav>
   <!-- Title -->
-<div class="container-fluid">
+<div class=" col-title container-fluid">
     <div class="row">
-      <div class="col-lg-6">
+      <div class=" col-space col-lg-6">
         <h1 >Discover the world within you..</h1>
         <p>“We only know a tiny proportion about the complexity of the natural world. <br>
             Wherever you look, there are still things we don’t know about and don’t understand. [...] <br>
             There are always new things to find out if you go looking for them.”</p>
-            <button type="button" class="btn btn-dark btn-outline-primary btn-lg download-button"> <i class="fa fa-download" aria-hidden="true"></i> Get started with DiscoverYou  </i></button>
+            <button type="button" class="btn btn-dark btn-outline-primary btn-lg download-button"> Get started with DiscoverYou  </i></button>
 
       </div>
 
@@ -81,26 +81,35 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
+<!-- carousel -->
 
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="clients.png" alt="clients">
-    <em>Pebbles, New York</em>
-
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
-
+    <div id="carouselExampleControls" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="img.jpg" alt="img-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+            <img class="testimonial-image" src="img1.jpg" alt="lady-profile">
+            <em>Beverly, Illinois</em>
+        </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" </span>
+      </a>
+    </div>
   </section>
 
 
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
-
+    <img src="logo.PNG" alt="tc-logo">
+    <img class="logo1"src="logo1.png" alt="tnw-logo">
   </section>
 
 
@@ -108,33 +117,50 @@
 
   <section id="pricing">
 
-    <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
+    <h2>A Plan to succeed</h2>
+    <p>Let's do it </p>
+<div class="row">
 
-
-    <h3>Chihuahua</h3>
+<div class="col-lg-4 col-md-6">
+<div class="cards">
+  <div class="card header">
+    <h5 class="card-title"> Lorem ipsum </h5>
+  </div>
+  <div class="card body">
     <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+    <p class="class-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <a href="#" class="btn btn-primary btn-outline-dark">Get Started </a></div>
+  </div>
+  </div>
 
 
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+    <div class="col-lg-4 col-md-6">
+    <div class="cards">
+      <div class="card header">
+        <h5 class="card-title"> Lorem ipsum </h5>
+      </div>
+      <div class="card body">
+        <h2>Free</h2>
+        <p class="class-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <a href="#" class="btn btn-primary btn-outline-dark">Get Started </a></div>
+      </div>
+      </div>
 
 
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+
+        <div class="col-lg-4 ">
+        <div class="cards">
+          <div class="card header">
+            <h5 class="card-title"> Lorem ipsum </h5>
+          </div>
+          <div class="card body">
+            <h2>Free</h2>
+            <p class="class-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <a href="#" class="btn btn-primary btn-outline-dark">Get Started </a></div>
+</div>
+</div>
+</div>
+
 
   </section>
 
@@ -143,9 +169,9 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h1>Find the yourself Today.</h1>
+    <button type="button" class="btn btn-dark btn-outline-primary btn-lg download-button"> Download </i></button>
+    <button type="button" class="btn btn-dark btn-outline-primary btn-lg download-button"> Share </i></button>
 
   </section>
 
@@ -154,7 +180,7 @@
 
   <footer id="footer">
 
-    <p>© Copyright 2018 TinDog</p>
+    <p>© Copyright 2018 DicoverYou</p>
 
   </footer>
 
